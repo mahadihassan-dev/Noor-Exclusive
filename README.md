@@ -1,2 +1,2 @@
-# Noor-Exclusive
-Noor Exclusive | Multivendor E-Commerce Template
+# Noor Exclusive | Multivendor E-Commerce Template
+
