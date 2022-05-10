@@ -1,0 +1,518 @@
+/*
+#
+#    ===> Project Created By Mahedi Hassan
+#
+*/
+
+
+/*
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+*/
+
+// Importing SCSS Files
+@import 'mixins';
+@import 'varriables';
+
+/* Custom Fonts are addded here */
+
+@font-face {
+    src: url(../font/Inconsolata-VariableFont_wdth\,wght.ttf);
+    font-family: dhf;
+}
+
+@font-face {
+    src: url(../font/BalooBhaina2-Regular.ttf);
+    font-family: dpf;
+}
+
+
+/*Default CSS Start*/
+
+:root {
+    --ht-bg: #030C1E;
+    --f-color-1: #4169E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F6F9 !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    line-height: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/*Default CSS End*/
+
+
+/* ====== Section Title : Start ======*/
+
+.section_title {
+    padding: {
+        top: 20px;
+        bottom: 20px;
+    }
+    ;
+    h4 {
+        font-family: $lato-font;
+        font-weight: 700;
+        color: #030C1E;
+        font-size: 24px;
+    }
+}
+
+
+/* ====== Section Title : End ======*/
+
+
+/* ===== Header Section : Start ===== */
+
+.header_top {
+    background: var(--ht-bg);
+    padding: {
+        top: 15px;
+        bottom: 15px;
+    }
+    ;
+    .header_item_row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        .ht_item_col.ht_item.ht_logo {
+            width: 15%;
+            .ht_site_logo {
+                a.site_logo {
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+        .ht_item_col.ht_item.ht_search {
+            width: 42.5%;
+            .ht_search_box {
+                width: 100%;
+                padding: {
+                    right: 25px;
+                }
+                ;
+                .search_box {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    position: relative;
+                    z-index: 1;
+                    .searchBox_input_filed {
+                        width: 100%;
+                        background: #fff;
+                        border-radius: 4px;
+                        padding: {
+                            top: 5px;
+                            bottom: 5px;
+                        }
+                        ;
+                        .SearchBox_input {
+                            background: #fff;
+                            border: 0;
+                            border-radius: 4px;
+                            width: 100%;
+                            padding: {
+                                left: 20px;
+                                right: 40px;
+                                top: 5px;
+                                bottom: 5px;
+                            }
+                            ;
+                        }
+                    }
+                    .searchBox_search_btn {
+                        background: transparent;
+                        border: 0;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        z-index: 2;
+                        display: block;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+        .ht_item_col.ht_item.ht_q_actions {
+            width: 42.5%;
+            .ht_q_ac_row {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                .ht_ac_item {
+                    width: 25%;
+                    a.ht_ac_item_link {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        text-decoration: none;
+                        color: #fff;
+                        width: 100%;
+                        .ht_ac_icon {
+                            padding: {
+                                left: 10px;
+                                right: 10px;
+                            }
+                            ;
+                            i {
+                                font-size: 26px;
+                                color: #FF6208;
+                            }
+                        }
+                        .ht_ac_content {
+                            h5 {
+                                margin-bottom: 1.5px;
+                                font-size: 15px;
+                            }
+                            p {
+                                margin-bottom: 0;
+                                font-size: 11px;
+                                color: rgb(145, 145, 145);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header_nav {
+    background: #fff;
+    box-shadow: 0px 0px 5px -2px #000100;
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
+    ;
+    .navbar {
+        .container {
+            .navbar_nav {
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                margin: 0;
+                align-items: center;
+                width: 100%;
+                justify-content: space-around;
+                .nav_item {
+                    padding: {
+                        left: 6px;
+                        right: 6px;
+                    }
+                    ;
+                    .nav_item_link {
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #1E1C1C;
+                        font-family: $opensans-font;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ===== Header Section : End ===== */
+
+
+/* ===== Our Brands Section : Start ===== */
+
+.our_brands {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    }
+    ;
+}
+
+
+/* ===== Our Brands Section : End ===== */
+
+
+/* ===== Customer Review Section : Star ===== */
+
+.customer_reviews {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    }
+    ;
+}
+
+.customer_review_card {
+    padding: 35px;
+    background: #fff;
+    border-radius: 10px;
+    .cr_ratings {
+        margin: {
+            bottom: 10px;
+        }
+        ;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        li.cr_rating_star {
+            margin: {
+                right: 5px;
+            }
+            ;
+            i {
+                color: #FE7E07;
+            }
+        }
+    }
+    .cr_reviewMessage {
+        p {
+            font-family: $Roboto-font;
+            font-weight: 400;
+            font-size: 18px;
+            margin: {
+                bottom: 20px;
+            }
+            ;
+        }
+    }
+    .cr_customer_info {
+        display: flex;
+        flex-direction: row;
+        .cr_customer-detail {
+            padding: {
+                left: 20px;
+            }
+            ;
+            h5 {
+                color: #4169E1;
+                font-family: $Montserrat-font;
+                font-weight: 700;
+                font-size: 16px;
+                margin: {
+                    bottom: 2px;
+                }
+                ;
+            }
+            p {
+                margin: 0;
+                color: #707070;
+                font-family: $lato-font;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+/* ===== Customer Review Section : End ===== */
+
+
+/* ===== Counter Section : Start ===== */
+
+.counter_wrapper {
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    }
+    ;
+}
+
+.counter_body {
+    h5 {
+        font-family: $lato-font;
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--f-color-1);
+    }
+    span.counter {
+        font-size: 36px;
+        font-family: $lato-font;
+        font-weight: 900;
+        color: var(--f-color-1);
+    }
+}
+
+
+/* ===== Counter Section : End ===== */
+
+
+/* ===== Footer Section : Start ===== */
+
+.footer_wrapper {
+    background: var(--ht-bg);
+    .footer_top {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: #F5F6F9;
+        }
+        .container {
+            .footer_navbar {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                .footer_nav_item {
+                    padding: {
+                        top: 20px;
+                        bottom: 20px;
+                    }
+                    ;
+                    .footer_nav_item_link {
+                        text-decoration: none;
+                        font-family: $Raleway-font;
+                        font-weight: 700;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer_widgets {
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    }
+    ;
+}
+
+.footer_widget {
+    h5 {
+        color: #fff;
+        font-size: 24px;
+        font-family: $lato-font;
+        font-weight: 700;
+        font-style: normal;
+        position: relative;
+        margin: {
+            bottom: 20px;
+        }
+        ;
+        &::after {
+            position: absolute;
+            content: '';
+            background: #FF6208;
+            bottom: -3px;
+            left: 0;
+            height: 2px;
+            width: 100px;
+        }
+    }
+    .footer_social_widget {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        .footer_sw_item {
+            margin: {
+                right: 5px;
+            }
+            ;
+            .footer_sw_item_link {
+                width: 30px;
+                height: 30px;
+                display: block;
+                line-height: 30px;
+                text-align: center;
+                background: #3C3A3A;
+                color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.fw_newsletter {
+    .fw_subs_form_box {
+        border: 2px solid #fff;
+        border-radius: 4px;
+        .fw_email_subs {
+            background: transparent;
+            color: #fff;
+            border: 0;
+            padding: 10px 15px;
+            width: 280px;
+            &::placeholder {
+                color: #fff;
+            }
+        }
+        button {
+            border: 0;
+            background: #4169E1;
+            color: #fff;
+            padding: 10px 17px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+.fw_payment_method {
+    padding: 0px 35px;
+}
+
+.footer_end {
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
+    ;
+}
+
+.footer_copyright {
+    span {
+        display: block;
+        color: #fff;
+        a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: rgb(145, 145, 145) 1px dashed;
+        }
+    }
+}
+
+.footer_dev_by {
+    span {
+        color: #fff;
+    }
+}
+
+
+/* ===== Footer Section : End ===== */
