@@ -1,0 +1,37 @@
+/* Product Banner Slider : Start */
+.product_banner_slide_track {
+  position: relative;
+}
+
+.product_banner_slide_track ul.slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product_banner_slide_track ul.slick-dots li {
+  margin-right: 5px;
+}
+
+.product_banner_slide_track ul.slick-dots li button {
+  font-size: 0;
+  border: 0;
+  background: #F2EBEB;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.product_banner_slide_track ul.slick-dots li.slick-active button {
+  background: #4169E1;
+}
+
+/* Product Banner Slider : End */
+/*# sourceMappingURL=sliders.css.map */

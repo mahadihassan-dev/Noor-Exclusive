@@ -1,0 +1,34 @@
+/* Product Banner Slider : Start */
+
+.product_banner_slide_track {
+    position: relative;
+    ul.slick-dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0;
+        display: flex;
+        li {
+            margin: {
+                right: 5px;
+            }
+            ;
+            button {
+                font-size: 0;
+                border: 0;
+                background: #F2EBEB;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+        }
+        li.slick-active button {
+            background: #4169E1;
+        }
+    }
+}
+
+
+/* Product Banner Slider : End */

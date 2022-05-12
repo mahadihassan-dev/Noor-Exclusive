@@ -275,9 +275,10 @@ ol {
                 font-family: $lato-font;
                 font-size: 16px;
                 margin: {
-                    bottom: 10px;
+                    bottom: 20px;
                 }
                 ;
+                font-weight: 600;
                 span {
                     color: #FF6208;
                 }
@@ -296,6 +297,31 @@ ol {
 
 
 /* ===== Banner Section : End ===== */
+
+
+/* ===== Short Info Section : Start ===== */
+
+.short_info {
+    .container {
+        .short_info_main {
+            padding: 10px 20px;
+            background: #fff;
+            border-radius: 30px;
+            marquee {
+                font-size: 14px;
+                font-family: $lato-font;
+                font-weight: 400;
+                margin: {
+                    top: 5px;
+                }
+                ;
+            }
+        }
+    }
+}
+
+
+/* ===== Short Info Section : End ===== */
 
 
 /* ===== Our Brands Section : Start ===== */

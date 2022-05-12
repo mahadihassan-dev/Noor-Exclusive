@@ -282,7 +282,8 @@ ol {
   color: #494949;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .product_banner_slide_track .product_banner_slide .pb_slide_content p span {
@@ -300,6 +301,21 @@ ol {
 }
 
 /* ===== Banner Section : End ===== */
+/* ===== Short Info Section : Start ===== */
+.short_info .container .short_info_main {
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.short_info .container .short_info_main marquee {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+/* ===== Short Info Section : End ===== */
 /* ===== Our Brands Section : Start ===== */
 .our_brands {
   padding-top: 30px;
