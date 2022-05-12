@@ -246,6 +246,58 @@ ol {
 /* ===== Header Section : End ===== */
 
 
+/* ===== Banner Section : Start ===== */
+
+.product_banner {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    }
+    ;
+}
+
+.product_banner_slide_track {
+    .product_banner_slide {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        padding: 85px;
+        border-radius: 5px;
+        .pb_slide_content {
+            h1 {
+                color: #030C1E;
+                font-size: 32px;
+                font-weight: 800;
+                font-family: $lato-font;
+            }
+            p {
+                color: #494949;
+                font-family: $lato-font;
+                font-size: 16px;
+                margin: {
+                    bottom: 10px;
+                }
+                ;
+                span {
+                    color: #FF6208;
+                }
+            }
+            .banner_btn {
+                padding: 10px 40px;
+                background: #4169E1;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 3px;
+                box-shadow: 0px 4px 8px rgba(33, 115, 180, 0.37);
+            }
+        }
+    }
+}
+
+
+/* ===== Banner Section : End ===== */
+
+
 /* ===== Our Brands Section : Start ===== */
 
 .our_brands {
