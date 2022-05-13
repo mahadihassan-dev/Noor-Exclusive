@@ -32,3 +32,54 @@
 
 
 /* Product Banner Slider : End */
+
+
+/* Available Product Slider : Start */
+
+.available_product_card_track.slick-initialized.slick-slider {
+    position: relative;
+    .slick-list.draggable {
+        .slick-track {
+            .slick-slide {
+                margin: {
+                    left: 10px;
+                    right: 10px;
+                }
+                ;
+            }
+        }
+    }
+    .av_pr_btn {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+    }
+    .av_pr_nextbtn {
+        right: -800px;
+    }
+    .av_pr_prevbtn {
+        left: -30px;
+    }
+}
+
+
+/* Available Product Slider : End */
+
+
+/* Customer Review Slider : Start */
+
+.customer_review_track.slick-initialized.slick-slider {
+    .slick-list.draggable {
+        .slick-track {
+            .slick-slide {
+                margin: {
+                    left: 20px;
+                }
+                ;
+            }
+        }
+    }
+}
+
+
+/* Customer Review Slider : End */

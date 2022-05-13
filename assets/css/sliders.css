@@ -34,4 +34,35 @@
 }
 
 /* Product Banner Slider : End */
+/* Available Product Slider : Start */
+.available_product_card_track.slick-initialized.slick-slider {
+  position: relative;
+}
+
+.available_product_card_track.slick-initialized.slick-slider .slick-list.draggable .slick-track .slick-slide {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.available_product_card_track.slick-initialized.slick-slider .av_pr_btn {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+}
+
+.available_product_card_track.slick-initialized.slick-slider .av_pr_nextbtn {
+  right: -800px;
+}
+
+.available_product_card_track.slick-initialized.slick-slider .av_pr_prevbtn {
+  left: -30px;
+}
+
+/* Available Product Slider : End */
+/* Customer Review Slider : Start */
+.customer_review_track.slick-initialized.slick-slider .slick-list.draggable .slick-track .slick-slide {
+  margin-left: 20px;
+}
+
+/* Customer Review Slider : End */
 /*# sourceMappingURL=sliders.css.map */
