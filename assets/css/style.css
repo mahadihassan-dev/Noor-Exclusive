@@ -506,8 +506,8 @@ ol {
 }
 
 .featured_category .container .featured_categories a.f_product_category_item .f_product_category_item_icon {
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   margin: auto;
 }
 
@@ -516,7 +516,7 @@ ol {
   margin-bottom: 10px;
   color: #565252;
   font-family: "Lato", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
