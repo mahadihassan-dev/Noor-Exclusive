@@ -541,6 +541,106 @@ ol {
 /* ===== Featured Product Category Section : End ===== */
 
 
+/* ===== Most Viewed Products Section : Start ====== */
+
+.h_product_card {
+    padding: 15px 0px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    /*It will appear if Product is New*/
+    .h_newProduct {
+        position: absolute;
+        top: 0;
+        left: -15px;
+        padding: 4px 10px;
+        background: #B752F2;
+        z-index: -1;
+        span.h_newProduct_text {
+            color: #fff;
+            font-size: 14px;
+            position: relative;
+            z-index: 1;
+            font-family: $lato-font;
+            font-weight: 600;
+            span {
+                position: relative;
+                z-index: 1;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 15px;
+                    left: -10px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: #542172;
+                    transform: rotate(-90deg);
+                    z-index: -33;
+                    clip-path: polygon(50% 0%, 0% 100%, 50% 100%);
+                }
+            }
+        }
+    }
+    .h_product_card_image {
+        text-align: center;
+    }
+    .h_product_card_short_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .h_product_offer {
+            p {
+                margin: 0;
+                background: #4169E1;
+                color: #fff;
+                padding: 5px 10px;
+                font-size: 12px;
+                font-family: $lato-font;
+                font-weight: 600;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        .h_product_rating {
+            p {
+                margin: 0;
+                background: #FE7E07;
+                color: #fff;
+                padding: 5px 10px;
+                font-size: 12px;
+                font-family: $lato-font;
+                font-weight: 600;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+    }
+    .h_product_card_info {
+        padding: 15px;
+        a.h_product_card_product_title {
+            font-family: $lato-font;
+            font-weight: 600;
+            font-size: 16px;
+            color: #615D5DCC;
+            text-decoration: none;
+        }
+        p.h_product_card_price {
+            color: #F31515;
+            font-family: $lato-font;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 0;
+            del.h_product_card_price_off {
+                color: #565252;
+            }
+        }
+    }
+}
+
+
+/* ===== Most Viewed Products Section : End ====== */
+
+
 /* ===== Our Brands Section : Start ===== */
 
 .our_brands {
