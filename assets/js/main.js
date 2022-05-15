@@ -21,6 +21,17 @@ $(document).ready(function() {
         slidesToScroll: 6
     });
 
+    // Most Reviewd Products at Home
+    $('.h_product_card_slide_track').slick({
+        infinite: true,
+        arrows: false,
+        prevArrow: '<i class="bi av_pr_btn av_pr_prevbtn bi-chevron-left"></i>',
+        nextArrow: '<i class="bi av_pr_btn av_pr_nextbtn bi-chevron-right"></i>',
+        autoplay: false,
+        dots: false,
+        slidesToShow: 6,
+        slidesToScroll: 6
+    });
     // Customer Reviews at Home
     $('.customer_review_track').slick({
         infinite: true,

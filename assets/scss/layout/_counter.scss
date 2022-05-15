@@ -1,0 +1,27 @@
+/* ===== Counter Section : Start ===== */
+
+.counter_wrapper {
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    }
+    ;
+}
+
+.counter_body {
+    h5 {
+        font-family: $lato-font;
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--f-color-1);
+    }
+    span.counter {
+        font-size: 36px;
+        font-family: $lato-font;
+        font-weight: 900;
+        color: var(--f-color-1);
+    }
+}
+
+
+/* ===== Counter Section : End ===== */

@@ -1,0 +1,18 @@
+.short_info {
+    .container {
+        .short_info_main {
+            padding: 10px 20px;
+            background: #fff;
+            border-radius: 30px;
+            marquee {
+                font-size: 14px;
+                font-family: $lato-font;
+                font-weight: 400;
+                margin: {
+                    top: 5px;
+                }
+                ;
+            }
+        }
+    }
+}

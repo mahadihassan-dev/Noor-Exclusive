@@ -1,0 +1,147 @@
+/* ===== Available Products Section : Start ===== */
+
+.available_products {
+    margin: {
+        top: 30px;
+    }
+    ;
+    .container {
+        .available_products_main {
+            .avp_section_header {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: space-between;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    bottom: 0;
+                    left: 0;
+                    height: 2px;
+                    width: 100%;
+                    background: #4169E1;
+                }
+                .avp_section_title {
+                    h3 {
+                        background: #4169E1;
+                        color: #fff;
+                        padding: 10px 25px;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        margin: 0;
+                        font-family: $lato-font;
+                        font-weight: 600;
+                    }
+                }
+                .avp_section_viewAllBtn {
+                    a {
+                        text-decoration: none;
+                        color: #565252;
+                        font-family: $lato-font;
+                        font-weight: 500;
+                        font-size: 18px;
+                        margin-top: 15px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.available_product_card_track {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    }
+    ;
+}
+
+.av_product_card {
+    background: url(../img/offer_product_card_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+        // right: 20px;
+        // left: 20px;
+    }
+    ;
+    .av_product_card_img {
+        text-align: center !important;
+        padding: {
+            top: 10px;
+            bottom: 10px;
+        }
+        ;
+        img {
+            margin: auto;
+        }
+    }
+    .av_product_card_info {
+        .av_product_card_offer_info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            p {
+                color: #fff;
+                background: #4169E1;
+                padding: 5px 10px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+                &:nth-child(2) {
+                    background: #FE7E07;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 0px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 0px;
+                }
+            }
+        }
+        .av_product_card_product_info {
+            padding: {
+                top: 10px;
+                bottom: 10px;
+                right: 10px;
+                left: 10px;
+            }
+            ;
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: $lato-font;
+                font-weight: 600;
+                color: #707070;
+                margin: {
+                    bottom: 10px;
+                }
+                ;
+            }
+            span {
+                color: #F31515;
+                font-family: $lato-font;
+                font-weight: 600;
+                del {
+                    color: #707070;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+/* ===== Available Products Section : End ===== */

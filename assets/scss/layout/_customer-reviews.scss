@@ -1,0 +1,73 @@
+/* ===== Customer Review Section : Star ===== */
+
+.customer_reviews {
+    padding: {
+        top: 30px;
+        bottom: 30px;
+    }
+    ;
+}
+
+.customer_review_card {
+    padding: 35px;
+    background: #fff;
+    border-radius: 10px;
+    .cr_ratings {
+        margin: {
+            bottom: 10px;
+        }
+        ;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        li.cr_rating_star {
+            margin: {
+                right: 5px;
+            }
+            ;
+            i {
+                color: #FE7E07;
+            }
+        }
+    }
+    .cr_reviewMessage {
+        p {
+            font-family: $Roboto-font;
+            font-weight: 400;
+            font-size: 18px;
+            margin: {
+                bottom: 20px;
+            }
+            ;
+        }
+    }
+    .cr_customer_info {
+        display: flex;
+        flex-direction: row;
+        .cr_customer-detail {
+            padding: {
+                left: 20px;
+            }
+            ;
+            h5 {
+                color: #4169E1;
+                font-family: $Montserrat-font;
+                font-weight: 700;
+                font-size: 16px;
+                margin: {
+                    bottom: 2px;
+                }
+                ;
+            }
+            p {
+                margin: 0;
+                color: #707070;
+                font-family: $lato-font;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+/* ===== Customer Review Section : End ===== */

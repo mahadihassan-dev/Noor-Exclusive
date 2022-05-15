@@ -1,0 +1,64 @@
+:root {
+    --ht-bg: #030C1E;
+    --f-color-1: #4169E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F6F9 !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    line-height: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+ ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+ ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}

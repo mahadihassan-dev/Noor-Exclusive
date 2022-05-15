@@ -59,6 +59,13 @@
 }
 
 /* Available Product Slider : End */
+/* Most Viewed Product Slider : Start */
+.h_product_card_slide_track.slick-initialized.slick-slider .slick-list.draggable .slick-track .slick-slide {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+/* Most Viewed Product Slider : End */
 /* Customer Review Slider : Start */
 .customer_review_track.slick-initialized.slick-slider .slick-list.draggable .slick-track .slick-slide {
   margin-left: 20px;
