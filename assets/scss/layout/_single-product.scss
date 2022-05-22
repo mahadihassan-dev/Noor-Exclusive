@@ -1,0 +1,30 @@
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
+
+/*Single Product Image slide : Start*/
+
+.single_product_img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .spi_img_sm {
+        width: 100%;
+        // padding: 0px 10px;
+        .spi_img_sm_slide {
+            margin-top: 10px;
+            &:nth-child(1) {
+                margin: {
+                    top: 0;
+                }
+                ;
+            }
+        }
+    }
+    .spi_img_big {
+        width: 100%;
+    }
+}
+
+
+/*Single Product Image slide : End*/

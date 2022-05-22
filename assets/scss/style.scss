@@ -25,6 +25,7 @@ font-family: 'Roboto Flex', sans-serif;
 
 @import './components/products-card';
 @import './components/section-title';
+@import './components/breadcrumb';
 @import './layout/header';
 @import './layout/home-banner';
 @import './layout/shortinfo-widget';
@@ -34,3 +35,5 @@ font-family: 'Roboto Flex', sans-serif;
 @import './layout/featured-product-category';
 @import './layout/customer-reviews';
 @import './layout/our-brands';
+@import './layout/h-product-widget';
+@import './layout/single-product';

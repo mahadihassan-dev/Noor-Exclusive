@@ -103,3 +103,22 @@
 
 
 /* Customer Review Slider : End */
+
+
+/*Single Product Image Slider : Start*/
+
+.spi_img_big_slide_tray.slick-initialized.slick-slider {
+    .slick-list.draggable {
+        .slick-track {
+            .slick-slide {
+                img {
+                    margin: auto !important;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+
+/*Single Product Image Slider : End*/

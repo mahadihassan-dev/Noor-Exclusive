@@ -89,6 +89,9 @@ textarea {
     font-family: 'Roboto Flex', sans-serif;
 */
 /* Product Cards*/
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 .h_product_card {
   padding: 15px 0px;
   border-radius: 16px;
@@ -202,6 +205,9 @@ textarea {
   color: #565252;
 }
 
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 .section_title {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -214,6 +220,50 @@ textarea {
   font-size: 24px;
 }
 
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
+/* Breadcrumb : Start */
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree li.breadcrumb_tree_item {
+  position: relative;
+  margin-left: 15px;
+}
+
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree li.breadcrumb_tree_item:nth-child(1) {
+  margin: 0;
+}
+
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree li.breadcrumb_tree_item a.breadcrumb_tree_item_link {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #030C1E;
+}
+
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree li.breadcrumb_tree_item::after {
+  position: absolute;
+  content: '\003e';
+  top: 0;
+  left: -13px;
+}
+
+.page_breadcrumb .pageBreadcrumb_wrapper .breadcrumb_tree li.breadcrumb_tree_item:nth-child(1)::after {
+  display: none;
+}
+
+/* Breadcrumb : End */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Header Section : Start ===== */
 .header_top {
   background: var(--ht-bg);
@@ -392,6 +442,9 @@ textarea {
 }
 
 /* ===== Header Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Banner Section : Start ===== */
 .product_banner {
   padding-top: 30px;
@@ -436,6 +489,9 @@ textarea {
 }
 
 /* ===== Banner Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 .short_info .container .short_info_main {
   padding: 10px 20px;
   background: #fff;
@@ -449,6 +505,9 @@ textarea {
   margin-top: 5px;
 }
 
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Available Products Section : Start ===== */
 .available_products {
   margin-top: 30px;
@@ -597,6 +656,9 @@ textarea {
 }
 
 /* ===== Available Products Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Footer Section : Start ===== */
 .footer_wrapper {
   background: var(--ht-bg);
@@ -766,6 +828,9 @@ textarea {
 }
 
 /* ===== Footer Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Counter Section : Start ===== */
 .counter_wrapper {
   padding-top: 60px;
@@ -787,6 +852,9 @@ textarea {
 }
 
 /* ===== Counter Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Featured Product Category Section : Start ===== */
 .featured_category {
   padding-top: 30px;
@@ -846,6 +914,9 @@ textarea {
 }
 
 /* ===== Featured Product Category Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Customer Review Section : Star ===== */
 .customer_reviews {
   padding-top: 30px;
@@ -915,6 +986,9 @@ textarea {
 }
 
 /* ===== Customer Review Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 /* ===== Our Brands Section : Start ===== */
 .our_brands {
   padding-top: 30px;
@@ -922,4 +996,41 @@ textarea {
 }
 
 /* ===== Our Brands Section : End ===== */
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
+/*Home Product Widget - 1 : Start*/
+/*Home Product Widget - 1 : End*/
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
+/*Single Product Image slide : Start*/
+.single_product_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.single_product_img .spi_img_sm {
+  width: 100%;
+}
+
+.single_product_img .spi_img_sm .spi_img_sm_slide {
+  margin-top: 10px;
+}
+
+.single_product_img .spi_img_sm .spi_img_sm_slide:nth-child(1) {
+  margin-top: 0;
+}
+
+.single_product_img .spi_img_big {
+  width: 100%;
+}
+
+/*Single Product Image slide : End*/
 /*# sourceMappingURL=style.css.map */

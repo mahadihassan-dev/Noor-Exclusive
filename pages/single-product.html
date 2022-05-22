@@ -13,18 +13,21 @@
     <meta property="og:type" content="" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-    <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="shortcut icon" href="../assets/img/fav-icon.png" type="image/x-icon">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/sliders.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="../assets/vendor/bootstrap-5.1.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/vendor/bootstrap-icons-1.8.1/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/vendor/fontawesome-free-6.1.1-web/css/all.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/plugins/slick-1.8.1/slick.css">
+    <link rel="stylesheet" href="../assets/plugins/swiper-slider/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/plugins/venobox-v2/venobox.css">
     <!-- Google Fonts API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +35,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="single-product-page">
 
     <!-- ==== Header : Start ==== -->
     <header id="main_header" class="header_wrapper">
@@ -184,169 +187,78 @@
     <!-- ==== Header : End ==== -->
 
     <!-- ==== Main Content Part : Start ==== -->
-    <main id="ContentBody" class="site_content_body">
-        <!-- ./Product Banner : Start -->
-        <section id="productBanner" class="product_banner">
+    <main id="ContentBody" class="site_content_body single-product-page-content">
+        <!-- ./Page BreadCrumb : Start -->
+        <section id="pageBreadcrumb" class="page_breadcrumb">
             <div class="container">
-                <div class="product_banner_slide_track">
-                    <div class="product_banner_slide">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="pageBreadcrumb_wrapper">
+                            <ul class="breadcrumb_tree">
+                                <li class="breadcrumb_tree_item">
+                                    <a href="#" class="breadcrumb_tree_item_link"><i class="bi bi-house-door-fill"></i></a>
+                                </li>
+                                <li class="breadcrumb_tree_item">
+                                    <a href="#" class="breadcrumb_tree_item_link">Single Product</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offset-6"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Page BreadCrumb : End -->
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ./Product Banner : End -->
-        <!-- ./Our Brands : Start -->
-        <section id="ourBrands" class="our_brands">
+        <!-- ./Single Product Info Area : Start -->
+        <section id="SingleProductInfo" class="single_product_info">
             <div class="container">
-                <div class="section_title">
-                    <h4>Our Brands</h4>
-                </div>
-                <div class="our_brand">
-                    <img src="assets/img/our_brands.png" alt="" class="img-fluid w-100 h-100">
-                </div>
-            </div>
-        </section>
-        <!-- ./Our Brands : End -->
-        <!-- ./Customer Reviews : Start -->
-        <section id="customerReview" class="customer_reviews">
-            <div class="container">
-                <div class="section_title">
-                    <h4>Customer Reviews</h4>
-                </div>
-                <div class="customer_review">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
+                <div class="row">
+                    <!-- ../Single product Image : Start -->
+                    <div class="col-5">
+                        <div class="single_product_img">
+                            <div class="spi_img_big">
+                                <div class="spi_img_big_slide_tray">
+                                    <div class="spi_img_big_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
+                                    <div class="spi_img_big_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-02-500x500.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="spi_img_big_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-03-500x500.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="spi_img_big_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-03-500x500.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="spi_img_big_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-04-500x500.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
+                            <div class="spi_img_sm">
+                                <div class="spi_img_sm_nav_slide">
+                                    <div class="spi_img_sm_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
+                                    <div class="spi_img_sm_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-02-500x500.jpg" alt="" class="img-fluid">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
+                                    <div class="spi_img_sm_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-03-500x500.jpg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
+                                    <div class="spi_img_sm_slide">
+                                        <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-04-500x500.jpg" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- ../Single product Image : End -->
                 </div>
             </div>
         </section>
-        <!-- ./Customer Reviews : End -->
-        <!-- ./Counter Section : Start -->
-        <section id="CounterBody" class="counter_wrapper">
-            <div class="container">
-                <div class="counter_main">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Happy Customers</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Customers Satisfactions</h5>
-                                <span class="counter">100%</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Organic Products</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Awards Winning</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ./Counter Section : End -->
+        <!-- ./Single Product Info Area : End -->
     </main>
     <!-- ==== Main Content Part : End ==== -->
 
@@ -483,10 +395,14 @@
 
 
     <!-- All Javascript File are Added Here -->
+    <script src="../assets/vendor/JQuery/jquery.min.js"></script>
+    <script src="../assets/vendor/JQuery/jquery-migrate.min.js"></script>
     <script src="../assets/vendor/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
     <script src="../assets/vendor/fontawesome-free-6.1.1-web/js/fontawesome.min.js"></script>
+    <script src="../assets/plugins/slick-1.8.1/slick.js"></script>
+    <script src="../assets/plugins/swiper-slider/swiper-bundle.min.js"></script>
+    <script src="../assets/plugins/venobox-v2/venobox.js"></script>
     <script src="../assets/js/main.js"></script>
-    <!-- <script src="assets/vendor/fontawesome-free-6.1.1-web/js/all.js"></script> -->
 </body>
 
 </html>

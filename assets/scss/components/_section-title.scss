@@ -1,3 +1,6 @@
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 .section_title {
     padding: {
         top: 20px;

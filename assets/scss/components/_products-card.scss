@@ -1,3 +1,6 @@
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
 .h_product_card {
     padding: 15px 0px;
     border-radius: 16px;

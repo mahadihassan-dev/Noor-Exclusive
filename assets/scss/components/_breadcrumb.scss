@@ -1,0 +1,45 @@
+@use '../utilities/root';
+@use '../utilities/mixins';
+@use '../utilities/varriables';
+
+/* Breadcrumb : Start */
+
+.page_breadcrumb {
+    .pageBreadcrumb_wrapper {
+        .breadcrumb_tree {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li.breadcrumb_tree_item {
+                position: relative;
+                margin: {
+                    left: 15px;
+                }
+                ;
+                &:nth-child(1) {
+                    margin: 0;
+                }
+                a.breadcrumb_tree_item_link {
+                    text-decoration: none;
+                    font-family: $lato-font;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #030C1E;
+                }
+                &::after {
+                    position: absolute;
+                    content: '\003e';
+                    // content: '\002f';
+                    top: 0;
+                    left: -13px;
+                }
+                &:nth-child(1)::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+/* Breadcrumb : End */
