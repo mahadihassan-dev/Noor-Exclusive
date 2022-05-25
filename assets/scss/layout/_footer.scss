@@ -101,6 +101,9 @@
     .fw_subs_form_box {
         border: 2px solid #fff;
         border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         .fw_email_subs {
             background: transparent;
             color: #fff;

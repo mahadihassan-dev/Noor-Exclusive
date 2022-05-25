@@ -4,5 +4,148 @@
 
 /*Home Product Widget - 1 : Start*/
 
+.h-product-w-1 {
+    .h_product_wdget_navs {
+        margin: {
+            bottom: 25px;
+        }
+        ;
+        .h_product_wdget_nav {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            .h_product_wdget_nav_item {
+                position: relative;
+                transition: all linear .5s;
+                margin: {
+                    right: 10px;
+                    left: 10px;
+                }
+                ;
+                &:nth-child(1) {
+                    margin-left: 0;
+                }
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    background: #4169E1;
+                    bottom: 0;
+                    left: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all linear .5s;
+                }
+                &:hover .h_product_wdget_nav_item_link {
+                    color: #030C1E;
+                }
+                .h_product_wdget_nav_item_link {
+                    display: block;
+                    text-decoration: none;
+                    // color: #030C1E;
+                    color: #615D5DCC;
+                    font-weight: 700;
+                    font-size: 24px;
+                    font-family: $lato-font;
+                    transition: all linear .3s;
+                }
+            }
+            .h_product_wdget_nav_item.h_product_wdget_nav-active_item {
+                .h_product_wdget_nav_item_link {
+                    color: #030C1E;
+                }
+            }
+            .h_product_wdget_nav_item.h_product_wdget_nav-active_item::after {
+                visibility: visible;
+                opacity: 1;
+            }
+            .h_product_wdget_nav_item:hover::after {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.h-product-w {
+    .h-product-w-right-navs {
+        .h-product-w-right-nav {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            .h-product-w-right-nav-item {
+                position: relative;
+                margin: {
+                    right: 10px;
+                    left: 10px;
+                }
+                ;
+                &:nth-child(1) {
+                    margin: {
+                        left: 0;
+                    }
+                    ;
+                }
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    background: #4169E1;
+                    bottom: 0;
+                    left: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all linear .5s;
+                }
+                .h-product-w-right-nav-item-link {
+                    text-decoration: none;
+                    display: block;
+                    color: #1E1C1C;
+                    font-family: $lato-font;
+                    font-weight: 600;
+                    font-size: 18px;
+                    padding: {
+                        top: 12px;
+                        bottom: 12px;
+                        left: 10px;
+                        right: 10px;
+                    }
+                    ;
+                }
+            }
+            .h-product-w-right-nav-item.h-product-w-right-nav-active_item::after {
+                visibility: visible;
+                opacity: 1;
+            }
+            .h-product-w-right-nav-item:hover::after {
+                visibility: visible;
+                opacity: 1;
+            }
+            .h-product-w-right-nav-item.h-product-w-right-nav-button_item a {
+                padding: {
+                    top: 10px;
+                    left: 20px;
+                    right: 20px;
+                    bottom: 10px;
+                }
+                ;
+                border: #4169E1 solid 2px;
+                border-radius: 8px;
+                margin: {
+                    left: 20px;
+                }
+                ;
+            }
+            .h-product-w-right-nav-item.h-product-w-right-nav-button_item::after {
+                display: none;
+            }
+        }
+    }
+}
+
 
 /*Home Product Widget - 1 : End*/
