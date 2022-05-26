@@ -1195,16 +1195,21 @@ textarea {
 @use '../utilities/mixins';
 @use '../utilities/varriables';
 /* Blog Widget Cards in Home : Start */
-.blog-wdgt-nav .blog-wdgt-navs {
-  margin: 0;
-  padding: 0;
-}
-
 /* Blog Widget Cards in Home : end */
 @use '../utilities/root';
 @use '../utilities/mixins';
 @use '../utilities/varriables';
 /* Blog Cards in Home : Start */
+.blog_app_wrapper {
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.blog-widget {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .blog-wdgt-nav {
   padding: 20px 0px;
 }
@@ -1264,8 +1269,61 @@ textarea {
   display: none;
 }
 
+.blog_card_widget_body {
+  background: #fff;
+  border-radius: 15px;
+}
+
+.blog_card_widget_body .blog_card_widget_thumb {
+  width: 100%;
+}
+
+.blog_card_widget_body .blog_card_widget_detail {
+  padding: 15px;
+}
+
+.blog_card_widget_body .blog_card_widget_detail a {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #4169E1;
+  text-decoration: none;
+}
+
+.blog_card_widget_body .blog_card_widget_detail p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.blog_card_widget_body .blog_card_widget_detail ul.bw-blog-info {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.blog_card_widget_body .blog_card_widget_detail ul.bw-blog-info li {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.blog_card_widget_body .blog_card_widget_detail ul.bw-blog-info li a {
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+}
+
 .download_app_widget {
   width: 100%;
+}
+
+.download_app_widget h4 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #4169E1;
+  margin-bottom: 20px;
 }
 
 .download_app_widget .downlod_app_img {
@@ -1279,16 +1337,23 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0px 35px;
+}
+
+.download_app_widget .downlod_app_img .app_ui_img {
+  width: 50%;
 }
 
 .download_app_widget .downlod_app_img .app_download_links-1 {
+  width: 50%;
   margin: 0;
-  padding: 0;
+  padding: 0px 15px;
   background: #fff;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .download_app_widget .downlod_app_img .app_download_links-1 .app_download_link-1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .download_app_widget .downlod_app_img .app_download_links-1 .app_download_link-1:nth-child(2) {
@@ -1299,6 +1364,15 @@ textarea {
   text-decoration: none;
   color: #565252;
   font-family: "Lato", sans-serif;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.download_app_widget .downlod_app_img .app_download_links-1 .app_download_link-1 a img {
+  width: 60px;
+  height: 60px;
 }
 
 .download_app_widget .downlod_app_img .app_download_links-1 .app_download_link-1 a p {
@@ -1307,7 +1381,77 @@ textarea {
 }
 
 .download_app_widget .downlod_app_img .app_download_links-1 .app_download_link-1 a p:nth-child(2) {
-  font-size: 10px;
+  font-size: 14px;
+}
+
+.download_app_widget .app_download_email_form {
+  margin-top: 20px;
+}
+
+.download_app_widget .app_download_email_form p {
+  color: #817B7BB2;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.download_app_widget .app_download_email_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.download_app_widget .app_download_email_form form input[type=email] {
+  border-top: 1px solid #817B7B87;
+  border-left: 1px solid #817B7B87;
+  border-bottom: 1px solid #817B7B87;
+  border-right: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 90px;
+  padding-bottom: 10px;
+}
+
+.download_app_widget .app_download_email_form form button[type=submit] {
+  border: 0;
+  background: #4169E1;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.download_app_widget .appDownload_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.download_app_widget .appDownload_links .appDownload_linkItem {
+  width: 50%;
 }
 
 /* Blog Cards in Home : end */

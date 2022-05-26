@@ -4,6 +4,22 @@
 
 /* Blog Cards in Home : Start */
 
+.blog_app_wrapper {
+    padding: {
+        top: 45px;
+        bottom: 20px;
+    }
+    ;
+}
+
+.blog-widget {
+    padding: {
+        top: 45px;
+        bottom: 45px;
+    }
+    ;
+}
+
 .blog-wdgt-nav {
     padding: 20px 0px;
     .blog-wdgt-navs {
@@ -60,19 +76,73 @@
     }
 }
 
+.blog_card_widget_body {
+    background: #fff;
+    border-radius: 15px;
+    .blog_card_widget_thumb {
+        width: 100%;
+    }
+    .blog_card_widget_detail {
+        padding: 15px;
+        a {
+            font-family: $lato-font;
+            font-weight: 600;
+            font-size: 18px;
+            color: #4169E1;
+            text-decoration: none;
+        }
+        p {
+            font-family: $lato-font;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        ul.bw-blog-info {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            li {
+                display: inline-block;
+                margin: {
+                    right: 2px;
+                }
+                ;
+                a {
+                    display: block;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
 .download_app_widget {
     width: 100%;
+    h4 {
+        text-align: center;
+        font-family: $lato-font;
+        font-weight: 700;
+        font-size: 24px;
+        color: #4169E1;
+        margin-bottom: 20px;
+    }
     .downlod_app_img {
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 0px 35px;
+        .app_ui_img {
+            width: 50%;
+        }
         .app_download_links-1 {
+            width: 50%;
             margin: 0;
-            padding: 0;
+            padding: 0px 15px;
             background: #fff;
+            border-radius: 0px 10px 10px 0px;
             .app_download_link-1 {
                 margin: {
-                    bottom: 20px;
+                    bottom: 10px;
                 }
                 ;
                 &:nth-child(2) {
@@ -82,15 +152,86 @@
                     text-decoration: none;
                     color: #565252;
                     font-family: $lato-font;
+                    display: block;
+                    padding: {
+                        top: 15px;
+                        bottom: 15px;
+                        left: 30px;
+                    }
+                    ;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
                     p {
                         margin: 0;
                         font-size: 20px;
                         &:nth-child(2) {
-                            font-size: 10px;
+                            font-size: 14px;
                         }
                     }
                 }
             }
+        }
+    }
+    .app_download_email_form {
+        margin: {
+            top: 20px;
+        }
+        ;
+        p {
+            color: #817B7BB2;
+            font-family: $lato-font;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            input[type=email] {
+                // border-color: #817B7B87;
+                border-top: 1px solid #817B7B87;
+                border-left: 1px solid #817B7B87;
+                border-bottom: 1px solid #817B7B87;
+                border-right: 0;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                padding: {
+                    top: 10px;
+                    left: 20px;
+                    right: 90px;
+                    bottom: 10px;
+                }
+                ;
+            }
+            button[type=submit] {
+                border: 0;
+                background: #4169E1;
+                color: #fff;
+                font-family: $lato-font;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                padding: {
+                    top: 10px;
+                    bottom: 10px;
+                    left: 15px;
+                    right: 15px;
+                }
+                ;
+            }
+        }
+    }
+    .appDownload_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        width: 100%;
+        margin-top: 10px;
+        .appDownload_linkItem {
+            width: 50%;
         }
     }
 }
