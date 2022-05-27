@@ -1158,34 +1158,37 @@ textarea {
 @use '../utilities/mixins';
 @use '../utilities/varriables';
 /*Single Product Image slide : Start*/
-.single_product_img {
+.single_product_gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   width: 100%;
 }
 
-.single_product_img .spi_img_sm {
-  width: 100%;
+.single_product_gallery .single_product_galleryImage_sm-thumb {
+  width: 20%;
 }
 
-.single_product_img .spi_img_sm .spi_img_sm_slide {
-  margin-top: 10px;
+.single_product_gallery .single_product_galleryImage_sm-thumb .product_galleryImage_sm-thumb {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.single_product_img .spi_img_sm .spi_img_sm_slide:nth-child(1) {
-  margin-top: 0;
-}
-
-.single_product_img .spi_img_big {
-  width: 100%;
+.single_product_gallery .single_product_galleryImage_bg-thumb {
+  width: 80%;
+  height: 420px;
+  overflow-x: hidden;
 }
 
 /*Single Product Image slide : End*/
+/*Single Product Detail : Start*/
+/*Single Product Detail : end*/
 @use '../utilities/root';
 @use '../utilities/mixins';
 @use '../utilities/varriables';

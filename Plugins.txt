@@ -1,0 +1,36 @@
+https://payalord.github.io/xZoom/ >> For Product Zoom and Gallery View
+
+https://swiperjs.com/demos/310-thumbs-gallery-loop/core >> For Product Gallery With Slider
+
+https://swiperjs.com/demos  >> For Product Gallery and Zoom View Swiper Slider
+
+https://codesandbox.io/s/ldhjv3?file=/index.html >> For Product Gallery and Zoom View Demo
+
+https://github.com/payalord/xZoom >> For Single Product Gallery
+
+https://www.jacklmoore.com/zoom/ >> for Product Zoom View
+
+https://www.jqueryscript.net/demo/product-image-magnifier-hover/ >> For Product Zoom View
+
+https://i-like-robots.github.io/EasyZoom/  >> For Product Zoom View
+
+https://www.jqueryscript.net/zoom/Minimalist-Image-Zoom-Plugin-For-jQuery-ViewImage-js.html >> For Product Zoom View
+
+https://www.jqueryscript.net/zoom/product-image-magnifier-hover.html >> For Product Zoom View
+
+https://www.fancyapps.com/docs/ui/fancybox/ >> Product Image View Gallery
+
+https://www.jqueryscript.net/demo/Minimalist-Image-Zoom-Plugin-For-jQuery-ViewImage-js/ >> for Product Gallery
+
+
+
+
+https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html >> Only For Universla Slider
+
+https://kenwheeler.github.io/slick/ >> Only For Universal Slider
+
+https://veno.es/venobox/#section_gallery >> Light box Gallery View
+
+
+
+https://oinam.github.io/entities/ >> CSS Entities
