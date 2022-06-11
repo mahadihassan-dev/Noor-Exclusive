@@ -17,14 +17,16 @@
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="shortcut icon" href="../assets/img/fav-icon.png" type="image/x-icon">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <!-- Responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css">
-    <!-- Vendor CSS -->
+    <!-- Plugin -->
+    <link rel="stylesheet" href="../assets/plugins/price-ranger/price_range_style.css">
+    <!-- Vendor -->
     <link rel="stylesheet" href="../assets/vendor/bootstrap-5.1.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/vendor/bootstrap-icons-1.8.1/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/vendor/fontawesome-free-6.1.1-web/css/all.css">
+    <!-- <link rel="stylesheet" href="../assets/vendor/jQueryUI/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" type="text/css" media="all" />
     <!-- Google Fonts API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -185,276 +187,1572 @@
 
     <!-- ==== Main Content Part : Start ==== -->
     <main id="ContentBody" class="site_content_body">
-        <!-- ./Product Banner : Start -->
-        <section id="productBanner" class="product_banner">
+        <!-- ./Page BreadCrumb : Start -->
+        <section id="pageBreadcrumb" class="page_breadcrumb bg-white mt-1 mb-1">
             <div class="container">
-                <div class="product_banner_slide_track">
-                    <div class="product_banner_slide">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="pageBreadcrumb_wrapper">
+                            <ul class="breadcrumb_tree">
+                                <li class="breadcrumb_tree_item">
+                                    <a href="../index.html" class="breadcrumb_tree_item_link"><i class="bi bi-house-door-fill"></i></a>
+                                </li>
+                                <li class="breadcrumb_tree_item">
+                                    <a href="#" class="breadcrumb_tree_item_link">Product Category</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offset-6"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Page BreadCrumb : End -->
 
+        <!-- ./Product Category tags : Start -->
+        <section id="ProductCategoryTag" class="product_category_tag_wrapper bg-white mt-1 mb-1 py-2">
+            <div class="container">
+                <div class="product_category_tag_wrapper">
+                    <ul class="product_category_tags">
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                        <li class="product_category_tag__item"><a href="#" class="product_category_tag_item_link">Fantech</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- ./Product Category tags : end -->
+
+        <!-- ./Search Query and View Settings : Start -->
+        <section id="QuerySettings" class="query_view_setting bg-white mt-1 mb-1 py-2">
+            <div class="container">
+                <div class="row">
+
+                    <!-- ../Query Result Col : Start -->
+                    <div class="col-6">
+                        <div class="query_search__result">
+                            <h5 class="query_search__results">1-16 of over 9,000 results for <span class="query_search__result_keyword">“Headphone”</span> </h5>
+                        </div>
+                    </div>
+                    <!-- ../Query Result Col : End -->
+
+                    <!-- ../View Settings Col : Start -->
+                    <div class="col-6">
+                        <div class="view_settings">
+                            <div class="vs_options_row">
+                                <div class="vs_option">
+                                    <div class="vs_post_show">
+                                        <label for="showPosts">Show :</label>
+                                        <select id="showPosts" class="form-select" aria-label="Default select example">
+                                            <option selected>10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="vs_option">
+                                    <div class="vs_post_shorting">
+                                        <label for="posts_shorting">Short By :</label>
+                                        <select id="posts_shorting" class="form-select" aria-label="Default select example">
+                                            <option selected>Default</option>
+                                            <option value="option">Option</option>
+                                            <option value="option">Option</option>
+                                            <option value="option">Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="vs_option">
+                                    <div class="vs_post_viewItem">
+                                        <label>View :</label>
+                                        <ul class="vs_post_viewItems">
+                                            <li class="vs_post_viewItem_active"><a href="#"><i class="bi bi-grid"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-list"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../View Settings Col : End -->
+                </div>
+            </div>
+        </section>
+        <!-- ./Search Query and View Settings : End -->
+
+        <!-- ./Product Query Filter and Product Cards : Start -->
+        <section id="Product_QueryFilter_Card" class="product_query_cards">
+            <div class="container">
+                <div class="row">
+                    <!-- ../Product Query Filter Widgets : Start -->
+                    <div class="col-4">
+                        <!-- .../Filter Widgets : Start -->
+                        <div class="filter_widgets">
+                            <!-- ..../Fategory Filter : Start -->
+                            <div class="filter_widget fw_category_filter_widget">
+                                <h4>Filters</h4>
+                                <div class="fw_category_widget">
+                                    <h5>Categories</h5>
+                                    <div class="fw_category_tag_widget mt-3">
+                                        <h6>Deals And Discounts</h6>
+                                        <ul class="fw_category_tags">
+                                            <li class="fw_category_tag_item fw_category_actv-tag_item"><a href="#" class="fw_category_tag_link">All Discounts</a></li>
+                                            <li class="fw_category_tag_item"><a href="#" class="fw_category_tag_link">All Discounts</a></li>
+                                            <li class="fw_category_tag_item"><a href="#" class="fw_category_tag_link">Today’s Deal</a></li>
+                                            <li class="fw_category_tag_item"><a href="#" class="fw_category_tag_link">Today’s Deal</a></li>
+                                            <li class="fw_category_tag_item"><a href="#" class="fw_category_tag_link">Today’s Deal</a></li>
+                                            <li class="fw_category_tag_item"><a href="#" class="fw_category_tag_link">Today’s Deal</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ..../Fategory Filter : End  -->
+                            <!-- ..../Price Deal and Filter : Start -->
+                            <div class="filter_widget fw_price_filter_widget">
+                                <h4>Price & Deal</h4>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Price</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item fw_filter_actv-tag_item"><a href="#" class="fw_filter_tag_link">All Prices</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Under ৳200</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">৳ 200 - ৳ 500</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">৳ 200 - ৳ 500</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">৳ 200 - ৳ 500</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">৳ 200 - ৳ 500</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_price-ranger_widget mt-3">
+                                    <div class="fw_filter_price-ranger">
+                                        <!-- <form action="">
+                                            <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+                                            <div class="p-range-wrp">
+                                                <input type="number" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field form-control" placeholder="৳ Min" required />
+                                                <input type="number" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field form-control" placeholder="৳ Max" required />
+                                                <button class="price-range-search" id="price-range-submit" style="display: block !important;">Go</button>
+                                            </div>
+                                        </form> -->
+                                        <form action="">
+                                            <div class="p-range-wrp">
+                                                <input type="text" name="price_range_min_input" class="form-control priceRangeIputField price_range_min" id="priceRangeMaxInput" placeholder="৳ Min" required>
+                                                <input type="text" name="price_range_max_input" class="form-control priceRangeIputField price_range_max" id="priceRangeMinInput" placeholder="৳ Max" required>
+                                                <button class="form-control price_range_sbmt" id="priceRangeSubmit">Go</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ..../Price Deal and Filter : end -->
+
+                            <!-- ..../Colors tag and Keyword Feature Filter Widget : Start -->
+                            <div class="filter_widget fw_color_tag_widget">
+                                <h4>Colors</h4>
+                                <div class="fw_color_tags">
+                                    <ul class="fw_color_tag_list">
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                        <li class="fw_color_item"><a href="#" class="fw_color_item_link"><span class="fw_color_code"></span>Black</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ..../Colors tag and Keyword Feature Filter Widget : End -->
+
+                            <!-- ..../Products Related Category Tags : Start -->
+                            <div class="filter_widget fw_product_related_caty_tags">
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fw_filter_tag_widget mt-3">
+                                    <h6>Deals And Discounts</h6>
+                                    <ul class="fw_filter_tags">
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">All Discounts</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                        <li class="fw_filter_tag_item"><a href="#" class="fw_filter_tag_link">Today’s Deal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ..../Products Related Category Tags : End -->
+
+                            <!-- ..../Customer Review : Start -->
+                            <div class="filter_widget fw_customer_review_widget">
+                                <div class="fw_customerReview">
+                                    <h4>Customer Reviews</h4>
+                                    <div class="fw_customer_reviews_counter">
+                                        <div class="fw_customer_review">
+                                            <ul class="fw_customerReviews">
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                            </ul>
+                                            <p>5</p>
+                                        </div>
+                                        <div class="fw_customer_review">
+                                            <ul class="fw_customerReviews">
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                            </ul>
+                                            <p>4 & up</p>
+                                        </div>
+                                        <div class="fw_customer_review">
+                                            <ul class="fw_customerReviews">
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                            </ul>
+                                            <p>3 & up</p>
+                                        </div>
+                                        <div class="fw_customer_review">
+                                            <ul class="fw_customerReviews">
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                            </ul>
+                                            <p>2 & up</p>
+                                        </div>
+                                        <div class="fw_customer_review">
+                                            <ul class="fw_customerReviews">
+                                                <li><i class="bi bi-star-fill"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                                <li><i class="bi bi-star"></i></li>
+                                            </ul>
+                                            <p>1 & up</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ..../Customer Review : End -->
+                            <!-- ..../Special Offers : Start -->
+                            <div class="filter_widget fw_special_offer_widget">
+                                <h4>Special Offers</h4>
+                                <div class="fw_specialOffers">
+                                    <div class="row">
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2 mb-2">
+                                            <div class="fw_specialOffers_card">
+                                                <div class="h_product_card bg-white">
+                                                    <!-- it will appear if product is New -->
+                                                    <div class="h_newProduct">
+                                                        <span class="h_newProduct_text">
+                                                            <span>New</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="h_product_card_image">
+                                                        <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="h_product_card_short_info">
+                                                        <div class="h_product_offer">
+                                                            <p>Flat 20% Off</p>
+                                                        </div>
+                                                        <div class="h_product_rating">
+                                                            <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h_product_card_info">
+                                                        <a href=".pages/single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                                        <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ..../Special Offers : End -->
+                        </div>
+                        <!-- .../Filter Widgets : End -->
+                    </div>
+                    <!-- ../Product Query Filter Widgets : End -->
+
+                    <!-- ../Product Cards : Start -->
+                    <div class="col-8">
+                        <div class="product_cards">
+                            <div class="row">
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                                <!-- .../Product Card : Start -->
+                                <div class="col-3">
+                                    <div class="product_card">
+                                        <div class="pc_thumb">
+                                            <img src="../assets/img/products/cpu-case/Antec NX280/Antec NX280 Mid Tower ARGB Gaming Case--nx280-01-500x500.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="pc_detail">
+                                            <div class="pc_detail_short">
+                                                <a href="../pages/single-product.html" class="pc_title">Antec NX280 Mid Tower ARGB Gaming Case</a>
+                                                <ul class="pc_detail_items">
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Retio Design Stereo headohone</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p class="pc_product_price"> ৳ 850 </p>
+                                            <ul class="pc_btns">
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_buy_btn"><i class="bi bi-cart3"></i> Buy Now</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pc_btn pc_wish_btn"><i class="bi bi-plus-square"></i> Add to Wish List</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .../Product Card : End -->
+                            </div>
+                            <!-- .../Product Card Pagination : Start -->
+                            <div class="product_card_pagination">
+                                <div class="pc_pagination">
+                                    <ul class="pc_pagination_items">
+                                        <li class="pc_pagination_item pc_pagination_prev_item"><a href="#" class="pc_pagination_item_link"><i class="bi bi-chevron-double-left"></i> Prev</a></li>
+                                        <li class="pc_pagination_item pc_pagination_actv_item"><a href="#" class="pc_pagination_item_link">1</a></li>
+                                        <li class="pc_pagination_item"><a href="#" class="pc_pagination_item_link">2</a></li>
+                                        <li class="pc_pagination_item"><a href="#" class="pc_pagination_item_link">3</a></li>
+                                        <li class="pc_pagination_item"><a href="#" class="pc_pagination_item_link">4</a></li>
+                                        <li class="pc_pagination_item"><a href="#" class="pc_pagination_item_link">5</a></li>
+                                        <li class="pc_pagination_item pc_pagination_next_item"><a href="#" class="pc_pagination_item_link">Next <i class="bi bi-chevron-double-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- .../Product Card Pagination : End -->
+                        </div>
+                    </div>
+                    <!-- ../Product Cards : End -->
+                </div>
+            </div>
+        </section>
+        <!-- ./Product Query Filter and Product Cards : End -->
+
+        <!-- ./Related Premium Products : Start -->
+        <section id="relatedPremiumProduct" class="related_premium_product_wrapper">
+            <div class="container">
+                <div class="related_product_header">
+                    <div class="section_title">
+                        <h4>Premium Related Products</h4>
+                    </div>
+                    <div class="related_product_card_track">
+                        <div class="row related_product_slide_track">
+                            <div class="col-3">
+                                <div class="related_product_card">
+                                    <div class="h_product_card">
+                                        <div class="h_product_card_image">
+                                            <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="h_product_card_short_info">
+                                            <div class="h_product_offer">
+                                                <p>Flat 20% Off</p>
+                                            </div>
+                                            <div class="h_product_rating">
+                                                <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                            </div>
+                                        </div>
+                                        <div class="h_product_card_info">
+                                            <a href="single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                            <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="related_product_card">
+                                    <div class="h_product_card">
+                                        <div class="h_product_card_image">
+                                            <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="h_product_card_short_info">
+                                            <div class="h_product_offer">
+                                                <p>Flat 20% Off</p>
+                                            </div>
+                                            <div class="h_product_rating">
+                                                <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                            </div>
+                                        </div>
+                                        <div class="h_product_card_info">
+                                            <a href="single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                            <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="related_product_card">
+                                    <div class="h_product_card">
+                                        <div class="h_product_card_image">
+                                            <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="h_product_card_short_info">
+                                            <div class="h_product_offer">
+                                                <p>Flat 20% Off</p>
+                                            </div>
+                                            <div class="h_product_rating">
+                                                <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                            </div>
+                                        </div>
+                                        <div class="h_product_card_info">
+                                            <a href="single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                            <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="related_product_card">
+                                    <div class="h_product_card">
+                                        <div class="h_product_card_image">
+                                            <img src="../assets/img/products/projectors/cheerlux-cl770-4000-lumens-full-hd-with-built-in-tv-card-multimedia-projector-500x500 2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="h_product_card_short_info">
+                                            <div class="h_product_offer">
+                                                <p>Flat 20% Off</p>
+                                            </div>
+                                            <div class="h_product_rating">
+                                                <p>4.5 <i class="bi bi-star-fill"></i></p>
+                                            </div>
+                                        </div>
+                                        <div class="h_product_card_info">
+                                            <a href="single-product.html" class="h_product_card_product_title">Razer KRAKEN X 7.1 Gaming</a>
+                                            <p class="h_product_card_price">৳ 4500 <del class="h_product_card_price_off">৳ 5500</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ./Product Banner : End -->
-        <!-- ./Our Brands : Start -->
-        <section id="ourBrands" class="our_brands">
+        <!-- ./Related Premium Products : end -->
+
+        <!-- ./Related Search Keywords : Start -->
+        <section id="relatedSearchKeywords" class="related_search_keywords_wrapper">
             <div class="container">
                 <div class="section_title">
-                    <h4>Our Brands</h4>
+                    <h4>Related Searches</h4>
                 </div>
-                <div class="our_brand">
-                    <img src="assets/img/our_brands.png" alt="" class="img-fluid w-100 h-100">
-                </div>
+                <div class=""></div>
             </div>
         </section>
-        <!-- ./Our Brands : End -->
-        <!-- ./Customer Reviews : Start -->
-        <section id="customerReview" class="customer_reviews">
-            <div class="container">
-                <div class="section_title">
-                    <h4>Customer Reviews</h4>
-                </div>
-                <div class="customer_review">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="customer_review_card">
-                                <ul class="cr_ratings">
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                    <li class="cr_rating_star"><i class="bi bi-star-fill"></i></li>
-                                </ul>
-                                <div class="cr_reviewMessage">
-                                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”</p>
-                                </div>
-                                <div class="cr_customer_info">
-                                    <div class="cr_customer_av">
-                                        <img src="assets/img/customer_avatar-1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="cr_customer-detail">
-                                        <h5>Mukesh Ambani</h5>
-                                        <p>CEO of Ambani Group</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ./Customer Reviews : End -->
-        <!-- ./Counter Section : Start -->
-        <section id="CounterBody" class="counter_wrapper">
-            <div class="container">
-                <div class="counter_main">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Happy Customers</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Customers Satisfactions</h5>
-                                <span class="counter">100%</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Organic Products</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="counter_body text-center">
-                                <h5>Awards Winning</h5>
-                                <span class="counter">1200+</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ./Counter Section : End -->
+        <!-- ./Related Search Keywords : End -->
+
     </main>
     <!-- ==== Main Content Part : End ==== -->
 
     <!-- ==== Footer : Start ==== -->
-    <footer id="footer_main" class="footer_wrapper">
-        <div class="footer_top">
-            <div class="container">
-                <ul class="footer_navbar">
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">About</a>
+    <footer id="footer_main " class="footer_wrapper ">
+        <div class="footer_top ">
+            <div class="container ">
+                <ul class="footer_navbar ">
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">About</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Contact</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Contact</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Brands</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Brands</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Delivery Policy</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Delivery Policy</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Payment Terms</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Payment Terms</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">EMI Information</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">EMI Information</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Privacy Policy</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Privacy Policy</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Return & Refund Policy</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Return & Refund Policy</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Warrenty Policy</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Warrenty Policy</a>
                     </li>
-                    <li class="footer_nav_item">
-                        <a href="#" class="footer_nav_item_link">Terms & Conditions</a>
+                    <li class="footer_nav_item ">
+                        <a href="# " class="footer_nav_item_link ">Terms & Conditions</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="footer_widgets">
-            <div class="container">
-                <div class="footer_widget_wrapper">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="footer_widget fw_social">
+        <div class="footer_widgets ">
+            <div class="container ">
+                <div class="footer_widget_wrapper ">
+                    <div class="row ">
+                        <div class="col-lg-4 ">
+                            <div class="footer_widget fw_social ">
                                 <h5>Follow us</h5>
-                                <ul class="footer_social_widget">
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-facebook-f"></i>
+                                <ul class="footer_social_widget ">
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-facebook-f "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-facebook-messenger"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-facebook-messenger "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-youtube"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-youtube "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-instagram"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-instagram "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-twitter"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-twitter "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-pinterest-p"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-pinterest-p "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-linkedin-in"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-linkedin-in "></i>
                                         </a>
                                     </li>
-                                    <li class="footer_sw_item">
-                                        <a href="#" class="footer_sw_item_link">
-                                            <i class="fa-brands fa-whatsapp"></i>
+                                    <li class="footer_sw_item ">
+                                        <a href="# " class="footer_sw_item_link ">
+                                            <i class="fa-brands fa-whatsapp "></i>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="footer_widget fw_newsletter">
+                        <div class="col-lg-4 ">
+                            <div class="footer_widget fw_newsletter ">
                                 <h5>Subscribe Our Newsletter</h5>
-                                <form action="" class="fw_subs_form">
-                                    <div class="fw_subs_form_box">
-                                        <input type="email" name="SubscriberEmail" id="fw_emailSubscribe" class="fw_email_subs" placeholder="Email Address" required>
-                                        <button type="submit">Subscribe <i class="bi bi-send"></i> </button>
+                                <form action=" " class="fw_subs_form ">
+                                    <div class="fw_subs_form_box ">
+                                        <input type="email " name="SubscriberEmail " id="fw_emailSubscribe " class="fw_email_subs " placeholder="Email Address " required>
+                                        <button type="submit ">Subscribe <i class="bi bi-send "></i> </button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="footer_widget fw_payment_method">
+                        <div class="col-lg-4 ">
+                            <div class="footer_widget fw_payment_method ">
                                 <h5>We Accept</h5>
-                                <div class="fw_payment_img">
-                                    <img src="../assets/img/payment_methods.png" alt="payment_methods, bkash, nogod" class="img-fluid">
+                                <div class="fw_payment_img ">
+                                    <img src="../assets/img/payment_methods.png " alt="payment_methods, bkash, nogod " class="img-fluid ">
                                 </div>
                             </div>
                         </div>
@@ -462,16 +1760,16 @@
                 </div>
             </div>
         </div>
-        <div class="footer_site_copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="footer_end footer_copyright">
-                            <span>Copyright @ 2022 All Rights are Reserved By <a href="/index.html">Noor Exclusive</a></span>
+        <div class="footer_site_copyright ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-6 ">
+                        <div class="footer_end footer_copyright ">
+                            <span>Copyright @ 2022 All Rights are Reserved By <a href="/index.html ">Noor Exclusive</a></span>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="footer_end footer_dev_by text-end">
+                    <div class="col-lg-6 ">
+                        <div class="footer_end footer_dev_by text-end ">
                             <span>Made with ❤ By Mahadi Hassan</span>
                         </div>
                     </div>
@@ -483,10 +1781,33 @@
 
 
     <!-- All Javascript File are Added Here -->
-    <script src="../assets/vendor/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
-    <script src="../assets/vendor/fontawesome-free-6.1.1-web/js/fontawesome.min.js"></script>
-    <script src="../assets/js/main.js"></script>
-    <!-- <script src="assets/vendor/fontawesome-free-6.1.1-web/js/all.js"></script> -->
+    <script src="../assets/vendor/JQuery/jquery.min.js"></script>
+    <!-- <script src="../assets/vendor/jQueryUI/jquery-ui.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../assets/plugins/price-ranger/price_range_script.js"></script>
+    <script src="../assets/vendor/JQuery/jquery-migrate.min.js"></script>
+    <script src="../assets/vendor/bootstrap-5.1.3-dist/js/bootstrap.js "></script>
+    <script src="../assets/vendor/fontawesome-free-6.1.1-web/js/fontawesome.min.js "></script>
+    <script src="../assets/js/main.js "></script>
+    <!-- <script>
+        $("#slider-range").slider({
+            range: true,
+            orientation: "horizontal",
+            min: 0,
+            max: 10000,
+            values: [0, 10000],
+            step: 100,
+
+            slide: function(event, ui) {
+                if (ui.values[0] == ui.values[1]) {
+                    return false;
+                }
+
+                $("#min_price").val(ui.values[0]);
+                $("#max_price").val(ui.values[1]);
+            }
+        });
+    </script> -->
 </body>
 
 </html>
