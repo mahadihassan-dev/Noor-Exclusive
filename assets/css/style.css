@@ -3396,5 +3396,171 @@ textarea {
           box-shadow: none;
 }
 
+.related_search_keywords_wrapper .related_search_keywords .related_keyword_link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 10px;
+  background-color: #F5F8FF;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4169E1;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 10px 0px;
+  width: 100%;
+  color: #707070;
+  font-size: 18px;
+}
+
+.related_search_keywords_wrapper .related_search_keywords .related_keyword_link i {
+  margin-right: 30px;
+}
+
+.related_search_keywords_wrapper .related_search_keywords .related_keyword_link p.related_keyword_txt {
+  margin: 0;
+}
+
+.related_search_keywords_wrapper .related_search_keywords .related_keyword_link p.related_keyword_txt span.related_keyword_sel_txt {
+  color: #000;
+}
+
+.product_comparison_price_detail h5 {
+  color: #0E3CDF;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.product_comparison_price_detail .product_comparison_price_list tr th:last-child {
+  text-align: right;
+}
+
+.product_comparison_price_detail .product_comparison_price_list tr td:last-child {
+  text-align: right !important;
+}
+
 /* Products Tags : End */
+.footer_test_v1 {
+  background: var(--ht-bg);
+}
+
+.footer_test_v1 .fw_email_subs {
+  width: 275px !important;
+}
+
+.footer_v1_nav ul.footer_v1_navbar {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_v1_nav ul.footer_v1_navbar li.footer_v1_nav_item a.footer_v1_nav_item_link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  padding: 20px 0px;
+}
+
+.footer_v1_nav.footer_test_v1_bottom_nav ul.footer_v1_navbar {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_v1_nav.footer_test_v1_bottom_nav ul.footer_v1_navbar li.footer_v1_nav_item {
+  margin: 0px 10px;
+}
+
+.footer_v1_nav.footer_test_v1_bottom_nav ul.footer_v1_navbar li.footer_v1_nav_item a.footer_v1_nav_item_link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  padding: 10px 0px;
+}
+
+.footer_v2_nav_menu .footer_qck_nav h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer_v2_nav_menu .footer_qck_nav ul.ftr_qck_nav_items {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_v2_nav_menu .footer_qck_nav ul.ftr_qck_nav_items li.ftr_qck_nav_item a.ftr_qck_nav_link {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #707070;
+  margin-left: 15px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  position: relative;
+}
+
+.footer_v2_nav_menu .footer_qck_nav ul.ftr_qck_nav_items li.ftr_qck_nav_item a.ftr_qck_nav_link::after {
+  position: absolute;
+  content: '\00bb';
+  top: -4px;
+  left: -15px;
+}
+
+.footer_v2_nav_menu .footer_qck_nav ul.ftr_qck_nav_items li.ftr_qck_nav_item a.ftr_qck_nav_link:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
